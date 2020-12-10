@@ -41,7 +41,7 @@ const watchTask = function (done) {
       const exclude = taskConfig.exclude
         ? `!{${taskConfig.exclude.join(",")}}`
         : "";
-      const extraWatch = taskConfig.watch ?? "";
+      const extraWatch = taskConfig.watch || "";
       watch([globPattern, exclude, extraWatch], { cwd: srcPath }, task(taskName));
     }
   });

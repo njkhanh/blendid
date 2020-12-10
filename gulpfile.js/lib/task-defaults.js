@@ -109,7 +109,7 @@ module.exports = {
       removeStyleLinkTypeAttributes: true,
     },
     excludeFolders: ["layouts", "shared", "macros", "data"],
-    extensions: ["html", "njk", "json"],
+    extensions: ["html", "njk", "twig", "json"],
   },
 
   images: {

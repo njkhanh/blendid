@@ -5,7 +5,7 @@
 ## Quick start on a fresh project (empty directory)
 ```bash
 yarn init
-yarn add git://github.com/topmonks/blendid.git
+yarn add git://github.com/njkhanh/blendid.git
 yarn blendid init
 yarn blendid
 ```

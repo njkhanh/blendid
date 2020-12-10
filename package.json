@@ -1,13 +1,13 @@
 {
-  "name": "@topmonks/blendid",
+  "name": "@njkhanh/blendid",
   "version": "6.0.0",
   "description": "A full featured configurable front-end asset pipeline and static site builder",
   "license": "MIT",
   "main": "gulpfile.js/index.js",
-  "homepage": "https://github.com/topmonks/blendid",
+  "homepage": "https://github.com/njkhanh/blendid",
   "repository": {
     "type": "git",
-    "url": "git://github.com/topmonks/blendid.git"
+    "url": "git://github.com/njkhanh/blendid.git"
   },
   "bin": {
     "blendid": "bin/blendid.js"
